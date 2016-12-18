@@ -12,18 +12,18 @@
 
 Notes:
 ======
-Task was to fetch titles from random [4] urls (from the top of a head).
+- Task was to fetch titles from random [4] urls (from the top of a head).
 
-Time is best of 3, truncated first 4 digits after dot.
+- Time is best of 3, truncated first 4 digits after dot.
 
-urllib here is used w/o session (it doesn't have one), requests - with.
+- urllib here is used w/o session (it doesn't have one), requests - with.
 
-Generally it is wrong to use aiohttp with separate sessions for each fetch.
+- Generally it is wrong to use aiohttp with separate sessions for each fetch.
 
-Python 3.5
+- Python 3.5
 
 
 
-TODO?
+__TODO?__
 
 Also would be nice to run blocking parts of aiohttp script with run_in_executor, try it out.
